@@ -10,7 +10,7 @@ const Field = (props) => {
         <div className={`field ${className}`}>
           <label
             className="field__label"
-            htmlFor="new-task"
+            htmlFor={id}
           >
             {label}
           </label>
