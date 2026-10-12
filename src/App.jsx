@@ -1,8 +1,11 @@
 import ToDo from "./components/ToDo"
+import { TasksProvider } from "./context/TasksContext"
 
 const App = () => {
   return (
-    <ToDo />
+    <TasksProvider>
+      <ToDo />
+    </TasksProvider>
   )
 }
 
